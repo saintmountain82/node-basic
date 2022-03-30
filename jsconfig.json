@@ -1,6 +1,11 @@
 {
     "compilerOptions": {
-        "strict": true
+        "strict": true,
+        "lib": ["ES2019", "ES2020", "ES2021", "ESNext"],
+        "noImplicitAny": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "noUncheckedIndexedAccess": true
     },
     "include": [
         "src/**/*"
