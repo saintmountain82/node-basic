@@ -1,0 +1,23 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Hello World\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saintmountain82/node-basic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saintmountain82/node-basic/issues"
+  },
+  "homepage": "https://github.com/saintmountain82/node-basic#readme",
+  "devDependencies": {
+    "prettier": "^2.6.1"
+  }
+}
