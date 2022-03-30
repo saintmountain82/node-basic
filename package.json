@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Hello World\" && exit 1"
+    "debug": "node src/main.js"
   },
   "repository": {
     "type": "git",
@@ -18,10 +18,15 @@
   },
   "homepage": "https://github.com/saintmountain82/node-basic#readme",
   "devDependencies": {
+    "@types/node": "^17.0.23",
     "eslint": "^8.12.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.25.4",
-    "prettier": "^2.6.1"
+    "prettier": "^2.6.1",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1"
   }
 }
